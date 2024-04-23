@@ -1,5 +1,5 @@
 deployment:
-  imageVersion: latest
-  replicaCount: 5
+  imageVersion: nginx:1.14.2
+  replicaCount: 3
 service:
   port: 80
