@@ -1,5 +1,5 @@
 deployment:
   imageVersion: stable-pearl
-  replicaCount: 5
+  replicaCount: 3
 service:
   port: 80
