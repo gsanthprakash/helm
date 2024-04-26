@@ -4,8 +4,10 @@ metadata:
   name: nginx
   labels: # these labels belong to deployment
     app: nginx
+    project: roboshop
+    component: frontend
 spec:
-  replicas: {{ .Values.deployment.replicaCount }}
+  replicas: "{{ .Values.deployment.replicaCount }}""
   selector:
     matchLabels: # these labels should match with pod
       app: nginx
